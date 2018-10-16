@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "barDay",
                     "type": "png"
                 }
@@ -55,8 +45,11 @@
         },
         {
             "name": "summarizeDay.png"
+        },
+        {
+            "name": "summarize.csv"
         }
     ],
-    "updated_at": "2018-10-16 23:48:42",
+    "updated_at": "2018-10-16 23:50:18",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
