@@ -23,8 +23,11 @@
             "assigned_to": "rncasagr",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "histDay.png"
         }
     ],
-    "updated_at": "2018-10-16 23:10:53",
+    "updated_at": "2018-10-16 23:11:02",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
