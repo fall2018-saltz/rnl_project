@@ -22,7 +22,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "histDay.png"
+            "target": "barDay.png"
         }
     ],
     "nodes": [
@@ -35,9 +35,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "histDay.png"
+            "name": "barDay.png"
         }
     ],
-    "updated_at": "2018-10-16 23:19:42",
+    "updated_at": "2018-10-16 23:19:50",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
