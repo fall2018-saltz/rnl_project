@@ -23,6 +23,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "summarize.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SatisfactionByDay",
+                    "type": "csv"
+                }
+            ],
+            "source": "summarize.R",
+            "target": "summarize.csv"
         }
     ],
     "nodes": [
@@ -50,6 +60,6 @@
             "name": "summarize.csv"
         }
     ],
-    "updated_at": "2018-10-16 23:50:18",
+    "updated_at": "2018-10-16 23:50:39",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
