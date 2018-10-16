@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "output": "histDay",
+                    "output": "barDay",
                     "type": "png"
                 }
             ],
@@ -38,6 +38,6 @@
             "name": "histDay.png"
         }
     ],
-    "updated_at": "2018-10-16 23:11:17",
+    "updated_at": "2018-10-16 23:19:42",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
