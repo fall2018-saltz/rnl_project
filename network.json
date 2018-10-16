@@ -52,8 +52,11 @@
             "desc": "",
             "name": "summarize.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "summarizeDy.png"
         }
     ],
-    "updated_at": "2018-10-16 23:48:13",
+    "updated_at": "2018-10-16 23:48:31",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
