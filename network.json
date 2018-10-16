@@ -27,7 +27,7 @@
         {
             "ports": [
                 {
-                    "output": "SatisfactionByDay",
+                    "output": "df.GroupByDays",
                     "type": "csv"
                 }
             ],
@@ -60,6 +60,6 @@
             "name": "summarize.csv"
         }
     ],
-    "updated_at": "2018-10-16 23:50:39",
+    "updated_at": "2018-10-16 23:52:55",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
