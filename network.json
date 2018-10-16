@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "barDay.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "summarize.R"
         }
     ],
     "nodes": [
@@ -38,10 +48,12 @@
             "name": "barDay.png"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "summarize.R"
+            "name": "summarize.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 23:29:17",
+    "updated_at": "2018-10-16 23:48:13",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
