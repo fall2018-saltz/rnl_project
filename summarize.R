@@ -11,6 +11,6 @@ mean <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, mea
 median <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, median, na.rm = TRUE)
 sd <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
 
-hist(mean)
-hist(median)
-hist(sd)
+histMean <- hist(mean)
+histMedian <- hist(median)
+histSD <- hist(sd)
