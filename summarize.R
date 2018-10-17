@@ -12,7 +12,7 @@ mean <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, 
 #median <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, median, na.rm = TRUE)
 #sd <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
 
-#barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
+barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
 #histMean <- hist(mean)
 #histMedian <- hist(median)
