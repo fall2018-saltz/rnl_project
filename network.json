@@ -57,7 +57,7 @@
         {
             "ports": [
                 {
-                    "output": "histMean",
+                    "output": "barMean",
                     "type": "png"
                 }
             ],
@@ -96,6 +96,6 @@
             "name": "tapply.csv"
         }
     ],
-    "updated_at": "2018-10-17 17:11:08",
+    "updated_at": "2018-10-17 17:13:23",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
