@@ -13,3 +13,4 @@ sd <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, sd, n
 
 hist(mean)
 hist(median)
+hist(sd)
