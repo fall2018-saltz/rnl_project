@@ -1,4 +1,5 @@
 
+DayofMonth <- raw_data[,c(1,14)]
 library(dplyr)
-df.GroupByDays <- group_by(raw_data, Day.of.Month)
+df.GroupByDays <- group_by(DayofMonth, Day.of.Month)
 SatisfactionByDay <- summarize(df.GroupByDays, Satisfaction = mean(Satisfaction))
