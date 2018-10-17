@@ -43,6 +43,16 @@
             ],
             "source": "summarize.R",
             "target": "csvfile7147.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "tapply",
+                    "type": "csv"
+                }
+            ],
+            "source": "summarize.R",
+            "target": "tapply.csv"
         }
     ],
     "nodes": [
@@ -76,6 +86,6 @@
             "name": "tapply.csv"
         }
     ],
-    "updated_at": "2018-10-17 16:53:09",
+    "updated_at": "2018-10-17 16:53:18",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
