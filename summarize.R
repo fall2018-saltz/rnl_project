@@ -8,9 +8,9 @@ SatisfactionByDay <- summarize(df.GroupByDays, Satisfaction = sum(Satisfaction>=
 
 tapply <- tapply(raw_data$Satisfaction>=0, raw_data$Day.of.Month, sum, na.rm = TRUE)
 
-mean <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, mean, na.rm = TRUE)
-median <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, median, na.rm = TRUE)
-sd <- tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
+mean <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, mean, na.rm = TRUE)
+median <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, median, na.rm = TRUE)
+sd <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
 
 barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
