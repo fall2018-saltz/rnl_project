@@ -53,6 +53,16 @@
             ],
             "source": "summarize.R",
             "target": "tapply.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histmean",
+                    "type": "png"
+                }
+            ],
+            "source": "summarize.R",
+            "target": "histMean.png"
         }
     ],
     "nodes": [
@@ -86,6 +96,6 @@
             "name": "tapply.csv"
         }
     ],
-    "updated_at": "2018-10-17 17:10:16",
+    "updated_at": "2018-10-17 17:10:30",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
