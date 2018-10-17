@@ -2,8 +2,8 @@
 library(ggplot2)
 DayofMonth <- raw_data[,c(1,14)]
 library(dplyr)
-df.GroupByDays <- group_by(DayofMonth, Day.of.Month)
-SatisfactionByDay <- summarize(df.GroupByDays, Satisfaction = sum(Satisfaction>=0, na.rm = TRUE))
+#df.GroupByDays <- group_by(DayofMonth, Day.of.Month)
+#SatisfactionByDay <- summarize(df.GroupByDays, Satisfaction = sum(Satisfaction>=0, na.rm = TRUE))
 
 
 #tapply <- tapply(raw_data$Satisfaction>=0, raw_data$Day.of.Month, sum, na.rm = TRUE)
@@ -12,8 +12,8 @@ mean <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, 
 #median <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, median, na.rm = TRUE)
 #sd <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
 
-barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
+#barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
-histMean <- hist(mean)
-histMedian <- hist(median)
-histSD <- hist(sd)
+#histMean <- hist(mean)
+#histMedian <- hist(median)
+#histSD <- hist(sd)
