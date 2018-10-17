@@ -74,7 +74,7 @@
             "task_status": "in progress"
         },
         {
-            "name": "summarizeDay.png"
+            "name": "histMean.png"
         },
         {
             "name": "summarize.csv"
@@ -86,6 +86,6 @@
             "name": "tapply.csv"
         }
     ],
-    "updated_at": "2018-10-17 16:53:18",
+    "updated_at": "2018-10-17 17:10:16",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
