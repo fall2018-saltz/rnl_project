@@ -7,4 +7,4 @@ SatisfactionByDay <- summarize(df.GroupByDays, Satisfaction = sum(Satisfaction>=
 
 tapply <- tapply(raw_data$Satisfaction>=0, raw_data$Day.of.Month, sum, na.rm = TRUE)
 
-tapply <- tapply(DayofMonth$Satisfaction, DayofMonth$Day.of.Month, mean)
+tapply <- tapply(DayofMonth$Satisfaction, DayofMonth$Day.of.Month, mean, na.rm = TRUE)
