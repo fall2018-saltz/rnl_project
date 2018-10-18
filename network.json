@@ -120,9 +120,6 @@
             "name": "summarize.csv"
         },
         {
-            "name": "csvfile7147.csv"
-        },
-        {
             "name": "tapply.csv"
         },
         {
@@ -147,6 +144,6 @@
             "name": "plot7909.png"
         }
     ],
-    "updated_at": "2018-10-18 18:16:08",
+    "updated_at": "2018-10-18 18:19:56",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
