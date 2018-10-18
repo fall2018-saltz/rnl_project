@@ -120,9 +120,6 @@
             "name": "summarize.csv"
         },
         {
-            "name": "tapply.csv"
-        },
-        {
             "assigned_to": "rncasagr",
             "desc": "",
             "name": "script5406.R",
@@ -144,6 +141,6 @@
             "name": "plot7909.png"
         }
     ],
-    "updated_at": "2018-10-18 18:19:56",
+    "updated_at": "2018-10-18 18:20:00",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
