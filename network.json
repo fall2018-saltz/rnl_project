@@ -27,37 +27,7 @@
         {
             "ports": [
                 {
-                    "output": "df.GroupByDays",
-                    "type": "csv"
-                }
-            ],
-            "source": "summarize.R",
-            "target": "summarize.csv"
-        },
-        {
-            "ports": [
-                {
-                    "output": "SatisfactionByDay",
-                    "type": "csv"
-                }
-            ],
-            "source": "summarize.R",
-            "target": "csvfile7147.csv"
-        },
-        {
-            "ports": [
-                {
-                    "output": "tapply",
-                    "type": "csv"
-                }
-            ],
-            "source": "summarize.R",
-            "target": "tapply.csv"
-        },
-        {
-            "ports": [
-                {
-                    "output": "barMean",
+                    "output": "mean",
                     "type": "png"
                 }
             ],
@@ -96,6 +66,6 @@
             "name": "tapply.csv"
         }
     ],
-    "updated_at": "2018-10-17 17:13:23",
+    "updated_at": "2018-10-18 17:42:57",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
