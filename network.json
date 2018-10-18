@@ -63,6 +63,16 @@
             ],
             "source": "script5406.R",
             "target": "plot1531.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mean",
+                    "type": "csv"
+                }
+            ],
+            "source": "script5406.R",
+            "target": "csvfile7151.csv"
         }
     ],
     "nodes": [
@@ -108,6 +118,6 @@
             "name": "csvfile7151.csv"
         }
     ],
-    "updated_at": "2018-10-18 18:06:30",
+    "updated_at": "2018-10-18 18:06:41",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
