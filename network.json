@@ -51,7 +51,7 @@
                     "type": "png"
                 }
             ],
-            "source": "script5406.R",
+            "source": "doesNotWork.R",
             "target": "plot1531.png"
         },
         {
@@ -61,7 +61,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "script5406.R",
+            "source": "doesNotWork.R",
             "target": "csvfile7151.csv"
         },
         {
@@ -92,7 +92,7 @@
                 }
             ],
             "source": "satisfactionSurvey.csv",
-            "target": "script5406.R"
+            "target": "doesNotWork.R"
         }
     ],
     "nodes": [
@@ -120,12 +120,6 @@
             "name": "summarize.csv"
         },
         {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "script5406.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot1531.png"
         },
         {
@@ -139,8 +133,14 @@
         },
         {
             "name": "plot7909.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "doesNotWork.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 18:20:00",
+    "updated_at": "2018-10-18 18:20:18",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
