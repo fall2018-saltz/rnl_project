@@ -53,6 +53,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "script5406.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMean",
+                    "type": "png"
+                }
+            ],
+            "source": "script5406.R",
+            "target": "plot1531.png"
         }
     ],
     "nodes": [
@@ -95,6 +105,6 @@
             "name": "plot1531.png"
         }
     ],
-    "updated_at": "2018-10-18 18:05:39",
+    "updated_at": "2018-10-18 18:05:50",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
