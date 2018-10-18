@@ -1,8 +1,7 @@
 
-
+library(dplyr)
 library(ggplot2)
 DayofMonth <- raw_data[,c(1,14)]
-library(dplyr)
 
 mean <- data.frame(tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, mean, na.rm = TRUE))
 colnames(mean) <- "Satisfaction"
