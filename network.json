@@ -47,16 +47,6 @@
         {
             "ports": [
                 {
-                    "input": "flight_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "script5406.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "barMean",
                     "type": "png"
                 }
@@ -93,6 +83,16 @@
             ],
             "source": "script3837.R",
             "target": "plot7909.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "script5406.R"
         }
     ],
     "nodes": [
@@ -147,6 +147,6 @@
             "name": "plot7909.png"
         }
     ],
-    "updated_at": "2018-10-18 18:11:01",
+    "updated_at": "2018-10-18 18:16:08",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
