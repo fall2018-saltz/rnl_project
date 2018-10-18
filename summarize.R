@@ -11,7 +11,7 @@ library(dplyr)
 mean <- data.frame(tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, mean, na.rm = TRUE))
 #median <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, median, na.rm = TRUE)
 #sd <- tapply(as.numeric(DayofMonth$Satisfaction>=0), DayofMonth$Day.of.Month, sd, na.rm = TRUE)
-colnames(mean) <- "mean"
+colnames(mean) <- "Satisfaction"
 mean$Day.of.Month <- rownames(mean)
 barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
