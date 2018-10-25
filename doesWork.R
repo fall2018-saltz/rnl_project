@@ -13,3 +13,8 @@ colnames(median) <- "Satisfaction"
 median$Day.of.Month <- rownames(median)
 barMedian <- ggplot(median, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
+sd <- data.frame(tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, sd, na.rm = TRUE))
+colnames(sd) <- "Satisfaction"
+sd$Day.of.Month <- rownames(sd)
+barSd <- ggplot(sd, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
+
