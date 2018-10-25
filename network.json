@@ -37,26 +37,6 @@
         {
             "ports": [
                 {
-                    "output": "barMean",
-                    "type": "png"
-                }
-            ],
-            "source": "doesNotWork.R",
-            "target": "plot1531.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "mean",
-                    "type": "csv"
-                }
-            ],
-            "source": "doesNotWork.R",
-            "target": "csvfile7151.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "raw_data",
                     "type": "csv"
                 }
@@ -73,16 +53,6 @@
             ],
             "source": "genVis.R",
             "target": "barMean.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "doesNotWork.R"
         },
         {
             "ports": [
@@ -141,12 +111,6 @@
             "name": "barMean.png"
         },
         {
-            "assigned_to": "rncasagr",
-            "desc": "",
-            "name": "doesNotWork.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "barMedian.png"
         },
         {
@@ -165,6 +129,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 20:59:41",
+    "updated_at": "2018-10-25 20:59:45",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
