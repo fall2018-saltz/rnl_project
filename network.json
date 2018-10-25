@@ -162,10 +162,15 @@
             "name": "barSd.png"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "binarySatisfaction.R"
+            "name": "binarySatisfaction.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1774.png"
         }
     ],
-    "updated_at": "2018-10-25 15:23:18",
+    "updated_at": "2018-10-25 15:23:52",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
