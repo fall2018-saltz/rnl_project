@@ -103,6 +103,16 @@
             ],
             "source": "numberizedSatisfaction.csv",
             "target": "summaryLM.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "summaryModel",
+                    "type": "txt"
+                }
+            ],
+            "source": "summaryLM.R",
+            "target": "summary.txt"
         }
     ],
     "nodes": [
@@ -155,6 +165,6 @@
             "name": "summary.txt"
         }
     ],
-    "updated_at": "2018-10-25 21:02:06",
+    "updated_at": "2018-10-25 21:02:21",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
