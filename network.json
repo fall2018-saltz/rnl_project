@@ -103,6 +103,16 @@
             ],
             "source": "genVis.R",
             "target": "barSd.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "binarySatisfaction.R"
         }
     ],
     "nodes": [
@@ -156,6 +166,6 @@
             "name": "binarySatisfaction.R"
         }
     ],
-    "updated_at": "2018-10-25 15:22:11",
+    "updated_at": "2018-10-25 15:23:18",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
