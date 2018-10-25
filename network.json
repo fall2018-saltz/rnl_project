@@ -112,9 +112,6 @@
             "name": "summarize.csv"
         },
         {
-            "name": "plot1531.png"
-        },
-        {
             "name": "barMean.png"
         },
         {
@@ -139,6 +136,6 @@
             "name": "numberizedSatisfaction.csv"
         }
     ],
-    "updated_at": "2018-10-25 21:00:15",
+    "updated_at": "2018-10-25 21:00:20",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
