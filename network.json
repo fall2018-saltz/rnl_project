@@ -150,8 +150,11 @@
             "desc": "",
             "name": "summaryLM.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "summary.txt"
         }
     ],
-    "updated_at": "2018-10-25 21:01:50",
+    "updated_at": "2018-10-25 21:02:06",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
