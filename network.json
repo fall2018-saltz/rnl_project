@@ -82,7 +82,7 @@
                 }
             ],
             "source": "doesWork.R",
-            "target": "plot7909.png"
+            "target": "barMean.png"
         },
         {
             "ports": [
@@ -136,7 +136,7 @@
             "name": "csvfile7151.csv"
         },
         {
-            "name": "plot7909.png"
+            "name": "barMean.png"
         },
         {
             "assigned_to": "rncasagr",
@@ -154,6 +154,6 @@
             "name": "barMedian.png"
         }
     ],
-    "updated_at": "2018-10-25 15:03:57",
+    "updated_at": "2018-10-25 15:04:20",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
