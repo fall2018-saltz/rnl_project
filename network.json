@@ -120,9 +120,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "barDay.png"
-        },
-        {
             "assigned_to": "rncasagr",
             "desc": "",
             "name": "summarize.R",
@@ -168,6 +165,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 20:56:32",
+    "updated_at": "2018-10-25 20:56:40",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
