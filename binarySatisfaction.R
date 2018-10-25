@@ -1,2 +1,2 @@
 
-summary(raw_data)
+summary <- summary(raw_data)
