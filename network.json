@@ -137,8 +137,11 @@
             "desc": "",
             "name": "genVis.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barSd.png"
         }
     ],
-    "updated_at": "2018-10-25 15:06:30",
+    "updated_at": "2018-10-25 15:06:41",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
