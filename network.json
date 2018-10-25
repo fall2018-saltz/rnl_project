@@ -1,0 +1,186 @@
+{
+    "collaborators": [
+        "rncasagr"
+    ],
+    "created_at": "2018-10-16 23:05:01",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "summarize.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMean",
+                    "type": "png"
+                }
+            ],
+            "source": "summarize.R",
+            "target": "histMean.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mean",
+                    "type": "csv"
+                }
+            ],
+            "source": "summarize.R",
+            "target": "summarize.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMean",
+                    "type": "png"
+                }
+            ],
+            "source": "doesNotWork.R",
+            "target": "plot1531.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mean",
+                    "type": "csv"
+                }
+            ],
+            "source": "doesNotWork.R",
+            "target": "csvfile7151.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "genVis.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMean",
+                    "type": "png"
+                }
+            ],
+            "source": "genVis.R",
+            "target": "barMean.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "doesNotWork.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMedian",
+                    "type": "png"
+                }
+            ],
+            "source": "genVis.R",
+            "target": "barMedian.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barSd",
+                    "type": "png"
+                }
+            ],
+            "source": "genVis.R",
+            "target": "barSd.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "binarySatisfaction.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "summary",
+                    "type": "png"
+                }
+            ],
+            "source": "binarySatisfaction.R",
+            "target": "plot1774.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "satisfactionSurvey.csv"
+        },
+        {
+            "name": "barDay.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "summarize.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histMean.png"
+        },
+        {
+            "name": "summarize.csv"
+        },
+        {
+            "name": "plot1531.png"
+        },
+        {
+            "name": "csvfile7151.csv"
+        },
+        {
+            "name": "barMean.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "doesNotWork.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barMedian.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "genVis.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barSd.png"
+        },
+        {
+            "assigned_to": "rncasagr",
+            "desc": "",
+            "name": "binarySatisfaction.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1774.png"
+        }
+    ],
+    "updated_at": "2018-10-25 15:24:03",
+    "url": "https://github.com/fall2018-saltz/rnl_project"
+}
