@@ -93,6 +93,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "doesNotWork.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barMedian",
+                    "type": "png"
+                }
+            ],
+            "source": "doesWork.R",
+            "target": "barMedian.png"
         }
     ],
     "nodes": [
@@ -144,6 +154,6 @@
             "name": "barMedian.png"
         }
     ],
-    "updated_at": "2018-10-25 15:03:45",
+    "updated_at": "2018-10-25 15:03:57",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
