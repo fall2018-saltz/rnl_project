@@ -93,6 +93,16 @@
             ],
             "source": "genVis.R",
             "target": "barMedian.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barSd",
+                    "type": "png"
+                }
+            ],
+            "source": "genVis.R",
+            "target": "barSd.png"
         }
     ],
     "nodes": [
@@ -142,6 +152,6 @@
             "name": "barSd.png"
         }
     ],
-    "updated_at": "2018-10-25 15:06:41",
+    "updated_at": "2018-10-25 15:06:54",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
