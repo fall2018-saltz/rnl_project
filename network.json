@@ -139,8 +139,11 @@
             "desc": "",
             "name": "doesWork.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barMedian.png"
         }
     ],
-    "updated_at": "2018-10-18 18:20:32",
+    "updated_at": "2018-10-25 15:03:45",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
