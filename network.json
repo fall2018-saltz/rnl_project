@@ -163,12 +163,8 @@
             "desc": "",
             "name": "binarySatisfaction.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "numberizedSatisfaction.R"
         }
     ],
-    "updated_at": "2018-10-25 20:56:53",
+    "updated_at": "2018-10-25 20:59:41",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
