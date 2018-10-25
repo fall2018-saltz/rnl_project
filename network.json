@@ -107,16 +107,6 @@
         {
             "ports": [
                 {
-                    "output": "summary",
-                    "type": "png"
-                }
-            ],
-            "source": "binarySatisfaction.R",
-            "target": "plot1774.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "satisfactionSurvey",
                     "type": "csv"
                 }
@@ -176,11 +166,8 @@
             "desc": "",
             "name": "binarySatisfaction.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "plot1774.png"
         }
     ],
-    "updated_at": "2018-10-25 20:56:26",
+    "updated_at": "2018-10-25 20:56:32",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
