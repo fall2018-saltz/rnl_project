@@ -133,6 +133,16 @@
             ],
             "source": "script5766.R",
             "target": "plot8699.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barSd",
+                    "type": "png"
+                }
+            ],
+            "source": "script5766.R",
+            "target": "plot4318.png"
         }
     ],
     "nodes": [
@@ -197,6 +207,6 @@
             "name": "plot4318.png"
         }
     ],
-    "updated_at": "2018-11-06 20:59:46",
+    "updated_at": "2018-11-06 20:59:55",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
