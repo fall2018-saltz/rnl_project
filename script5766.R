@@ -22,3 +22,5 @@ sd <- data.frame(tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.M
 colnames(sd) <- "Satisfaction"
 sd$Day.of.Month <- rownames(sd)
 barSd <- ggplot(sd, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
+
+# No interesting correlation is apparent between day of the month and satisfcation when examining the above plots. 
