@@ -113,6 +113,16 @@
             ],
             "source": "summaryLM.R",
             "target": "summary.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "script5766.R"
         }
     ],
     "nodes": [
@@ -165,10 +175,12 @@
             "name": "summary.txt"
         },
         {
+            "assigned_to": "rncasagr",
             "desc": "",
-            "name": "script5766.R"
+            "name": "script5766.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-06 20:49:23",
+    "updated_at": "2018-11-06 20:49:48",
     "url": "https://github.com/fall2018-saltz/rnl_project"
 }
