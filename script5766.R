@@ -12,6 +12,7 @@ mean$Day.of.Month <- rownames(mean)
 # Plot results
 barMean <- ggplot(mean, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
+# Repeat above for median and sd of the day of the month
 median <- data.frame(tapply(as.numeric(DayofMonth$Satisfaction), DayofMonth$Day.of.Month, median, na.rm = TRUE))
 colnames(median) <- "Satisfaction"
 median$Day.of.Month <- rownames(median)
