@@ -1,5 +1,4 @@
 
-
 library(dplyr)
 library(ggplot2)
 DayofMonth <- raw_data[,c(1,14)]
@@ -23,4 +22,7 @@ colnames(sd) <- "Satisfaction"
 sd$Day.of.Month <- rownames(sd)
 barSd <- ggplot(sd, aes(x=Day.of.Month, y=Satisfaction, group = 1)) + geom_col() 
 
-# No interesting correlation is apparent between day of the month and satisfcation when examining the above plots. 
+# No interesting correlation is apparent between day of the month and satisfcation when examining 
+# the above plots. 
+
+# Flight date, Flight time in minutes, Flight Distance.
